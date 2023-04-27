@@ -1,0 +1,15 @@
+<app-header *ngIf="authService.isLoggedIn==false"></app-header>
+<div class="home">
+  <div class="block">
+    <p class="block_txt1">
+      Exclusive Deals
+      of furniture collection
+    </p>
+    <p class="block_txt2">
+      Explore different categories. Find the best deals.
+    </p>
+    <button  (click)="goToCategory()" class="block_btn">
+      Shop Now
+    </button>
+  </div>
+</div>
